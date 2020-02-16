@@ -7,11 +7,11 @@ data[:gender].each{|key, value|
   value.each{ |name|
 pigeon_names[name] = {
   :gender => [key.to_s],
-  :color => [key],
+  :color => [],
   :lives => []
 }
 data[:color].each{|key, value|
- value.each{ |color| puts key}
+ value.each{ |color| 
 }
 binding.pry
 }
