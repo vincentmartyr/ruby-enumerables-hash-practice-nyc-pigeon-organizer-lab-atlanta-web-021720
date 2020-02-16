@@ -20,7 +20,7 @@ data[:color].each{|key, value|
 }
 data[:lives].each{|key, value|
 value.each { |lives|
-  pigeos_names[lives] = key
+  pigeon_names[lives] = key
   binding.pry
 
   }}
