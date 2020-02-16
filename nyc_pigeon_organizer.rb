@@ -13,7 +13,8 @@ pigeon_names[name] = {
 }
 }
 data[:color].each{|key, value|
- value.each { |color|
+ value.each { |color| 
+   pigeon_names[name][:color] >> key
 }
 
 binding.pry
