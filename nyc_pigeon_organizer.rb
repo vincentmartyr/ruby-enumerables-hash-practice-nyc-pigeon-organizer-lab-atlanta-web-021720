@@ -16,7 +16,7 @@ pigeon_names[color] = {
   :color => [key]
 }
 binding.pry
-
+}
 }
 }
 }
