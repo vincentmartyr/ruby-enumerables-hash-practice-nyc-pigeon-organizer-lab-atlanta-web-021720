@@ -22,7 +22,7 @@ binding.pry
 data[:lives].each{|key, value|
 value.each { |lives|
   pigeos_names[lives] = key
-  
+
   }}
 
 
