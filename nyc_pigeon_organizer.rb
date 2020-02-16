@@ -34,7 +34,7 @@ value.each { |lives|
 #     :color = [key]    }
 
 #result
-
+pigeon_names
 end
 
 
