@@ -7,7 +7,7 @@ data[:gender].each{|key, value|
   value.each{ |name|
 pigeon_names[name] = {
   :gender => [key.to_s],
-  :color => [],
+  :color => [key],
   :lives => []
 }
 data[:color].each{|key, value|
