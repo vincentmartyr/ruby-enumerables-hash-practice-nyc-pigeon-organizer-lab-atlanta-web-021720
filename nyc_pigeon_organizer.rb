@@ -16,8 +16,8 @@ data[:color].each{|key, value|
 binding.pry
 }
 }
-}
-}
+
+
 
 # data[:color].each{|key, value|
 #   value.each{ |color|
