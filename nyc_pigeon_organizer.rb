@@ -17,6 +17,7 @@ data[:color].each{|key, value|
 pigeon_names[color]}
 }
 
+
 # data[:color].each{|key, value|
 #   value.each{ |color|
 #     pigeon_names[color] =
