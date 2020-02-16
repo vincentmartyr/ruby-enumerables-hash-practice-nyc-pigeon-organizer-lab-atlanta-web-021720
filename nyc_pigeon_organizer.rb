@@ -9,10 +9,11 @@ pigeon_names[name] = {
   :gender => [key.to_s],
   :color => [],
   :lives => []
-}
+
 data[:color].each{|key, value|
  value.each{ |color|
 pigeon_names[color]}
+}
 }
 }
 }
