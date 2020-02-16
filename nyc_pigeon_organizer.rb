@@ -12,8 +12,7 @@ pigeon_names[name] = {
 }
 data[:color].each{|key, value|
  value.each{ |color|
-pigeon_names[color]
-  :color[key]    }
+pigeon_names[color]}
 }
 }
 # data[:color].each{|key, value|
