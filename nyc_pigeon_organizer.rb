@@ -17,11 +17,11 @@ data[:color].each{|key, value|
    pigeon_names[color] = key
 }
 
-binding.pry
 }
 data[:lives].each{|key, value|
 value.each { |lives|
   pigeos_names[lives] = key
+  binding.pry
 
   }}
 
