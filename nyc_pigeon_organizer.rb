@@ -23,12 +23,7 @@ pigeon_names[color]}
 #     :color = [key]    }
 binding.pry
 
-}
-
-
-
-
-# result
+#result
 
 end
 
